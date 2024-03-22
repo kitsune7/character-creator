@@ -30,3 +30,10 @@ body {
   padding: 0;
   border: 0;
 }
+
+@media (max-width: 960px) {
+  :root {
+    --desktop-display: none;
+    --mobile-display: block;
+  }
+}

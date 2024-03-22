@@ -1,0 +1,29 @@
+.characterEditor {
+  display: var(--mobile-display, none);
+  min-height: 100%;
+}
+
+.controlScrollArea {
+  overflow: scroll;
+}
+
+.controlColumn {
+  position: absolute;
+  display: flex;
+  top: 60%;
+  width: 100%;
+  gap: 1rem;
+  padding-inline: 1rem;
+}
+
+.controlColumn > div {
+  flex-shrink: 0;
+  max-width: 350px;
+  width: 90vw;
+}
+
+.characterWrapper {
+  position: fixed;
+  top: 10%;
+  bottom: 0;
+}

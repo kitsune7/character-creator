@@ -1,4 +1,5 @@
 .characterEditor {
+  display: var(--desktop-display, block);
   padding-top: 128px;
   padding-bottom: 64px;
 }
